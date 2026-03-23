@@ -1,5 +1,4 @@
-use learning::{login, Credentials};
-
+use learning::auth::{login, models::Credentials};
 
 fn main(){
     let cred = Credentials{
